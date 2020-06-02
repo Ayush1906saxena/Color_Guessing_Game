@@ -1,0 +1,63 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Righteous', cursive;
+}
+.square{
+    width: 30%;
+    background: paleturquoise;
+    padding-bottom: 30%;
+    float:left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.5s;
+}
+#container {
+    margin: 33px auto;
+    max-width: 700px;
+
+}
+h1{
+    color:whitesmoke;
+    text-align: center;
+    line-height: 1.1;
+    background-color: cadetblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px  0;
+}
+
+#stripe{
+    background-color: whitesmoke;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+.selected{
+    color: whitesmoke;
+    background-color: cadetblue;
+}
+#colordisplay{
+    font-size: 190%;
+}
+#message{
+    display: inline-block;
+    width: 20%;
+}
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: cadetblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    outline: none;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: cadetblue;
+}
